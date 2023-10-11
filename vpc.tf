@@ -131,7 +131,7 @@ resource "aws_route_table_association" "Nat-Gateway-RT-AssociationA" {
     aws_route_table.NAT-Gateway-RT
   ]
 
-#  Private Subnet ID for adding this route table to the DHCP server of Private subnet!
+#  Private Subnet ID for adding this route table to the DHCP server of Private subnet! Great!
   subnet_id      = aws_subnet.cloudforce_privateA.id
 
 # Route Table ID
