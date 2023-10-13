@@ -34,7 +34,7 @@ resource aws_subnet "cloudforce_publicB"{
   vpc_id = aws_vpc.cloudforce_vpc.id
   cidr_block = "10.0.3.0/24"
   availability_zone = "us-east-1b"
-
+# added a new tag
   tags = {
     "Name" = "cloudforce_publicB"
   }
@@ -124,7 +124,7 @@ resource "aws_route_table" "NAT-Gateway-RT" {
 }
 
 
-# Associating route table for NAT gateway to public subnet A
+# Associating route table for NAT gateway to public subnet A New
 resource "aws_route_table_association" "Nat-Gateway-RT-AssociationA" {
   depends_on = [
     aws_route_table.NAT-Gateway-RT
