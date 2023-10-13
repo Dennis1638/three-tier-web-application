@@ -1,7 +1,7 @@
 resource "aws_autoscaling_group" "backendASG" {
   name     = "backendASG"
-  min_size = 1
-  max_size = 3
+  min_size = 2
+  max_size = 4
 
   health_check_type = "EC2"
 
