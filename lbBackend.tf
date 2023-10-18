@@ -1,3 +1,4 @@
+#This was a great project
 resource "aws_lb" "backend_lb" {
   name               = "backend-lb"
   internal           = true

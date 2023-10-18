@@ -1,3 +1,4 @@
+#Security group
 resource "aws_security_group" "lbsecuritygroupB" {
   name   = "lbsecuritygroupB"
   ingress {
