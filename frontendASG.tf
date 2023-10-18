@@ -1,3 +1,4 @@
+#Front ASG
 resource "aws_autoscaling_group" "frontendASG" {
   name     = "frontendASG"
   min_size = 2
