@@ -1,3 +1,4 @@
+# Launch config One
 resource "aws_launch_template" "frontend" {
   name_prefix = "frontend"
   image_id = "ami-0557a15b87f6559cf" 
